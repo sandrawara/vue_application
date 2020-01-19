@@ -1,7 +1,2 @@
-/client
+
 node_modules
-bin
-public
-routes
-view
-app.js
