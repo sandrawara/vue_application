@@ -3,7 +3,6 @@ const mongodb = require('mongodb');
 
 const router = express.Router();
 
-
 // Get posts
 router.get('/', async (rep, res) => {
    const posts = await loadPostCollection();

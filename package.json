@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server/index.js",
-    "postinstall": "npm run build"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "author": "Sandra Wara",
   "license": "",
