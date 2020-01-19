@@ -1,24 +1,16 @@
 {
   "name": "projekt",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
+    "start": "node ./bin/www"
   },
-  "author": "Sandra Wara",
-  "license": "",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "firebase": "^7.6.1",
-    "mongodb": "^3.4.1",
-    "vue-upload-image": "^1.1.5"
-  },
-  "devDependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.2",
-    "serve-static": "^1.14.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
